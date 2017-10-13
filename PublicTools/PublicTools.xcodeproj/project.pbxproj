@@ -10,7 +10,6 @@
 		52A756B31F8F1B0A002AA707 /* PublicTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A756A91F8F1B0A002AA707 /* PublicTools.framework */; };
 		52A756B81F8F1B0A002AA707 /* PublicToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A756B71F8F1B0A002AA707 /* PublicToolsTests.m */; };
 		52A756BA1F8F1B0A002AA707 /* PublicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A756AC1F8F1B0A002AA707 /* PublicTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52A756C81F8F1BF6002AA707 /* AlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A756C31F8F1BF5002AA707 /* AlertMessage.m */; };
 		52A756C91F8F1BF6002AA707 /* TimeWithNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A756C41F8F1BF5002AA707 /* TimeWithNSDate.m */; };
 		52A756CA1F8F1BF6002AA707 /* TextFontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A756C51F8F1BF5002AA707 /* TextFontFit.m */; };
 		52A756CB1F8F1BF6002AA707 /* UIColor+ColorTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A756C61F8F1BF6002AA707 /* UIColor+ColorTransfer.m */; };
@@ -19,7 +18,6 @@
 		52A756D31F8F1C00002AA707 /* UIColor+ColorTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A756CE1F8F1C00002AA707 /* UIColor+ColorTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52A756D41F8F1C00002AA707 /* TextFontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A756CF1F8F1C00002AA707 /* TextFontFit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52A756D51F8F1C00002AA707 /* ChineseToPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A756D01F8F1C00002AA707 /* ChineseToPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52A756D61F8F1C00002AA707 /* AlertMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A756D11F8F1C00002AA707 /* AlertMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 		52A756B21F8F1B0A002AA707 /* PublicToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A756B71F8F1B0A002AA707 /* PublicToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicToolsTests.m; sourceTree = "<group>"; };
 		52A756B91F8F1B0A002AA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A756C31F8F1BF5002AA707 /* AlertMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertMessage.m; sourceTree = "<group>"; };
 		52A756C41F8F1BF5002AA707 /* TimeWithNSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeWithNSDate.m; sourceTree = "<group>"; };
 		52A756C51F8F1BF5002AA707 /* TextFontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFontFit.m; sourceTree = "<group>"; };
 		52A756C61F8F1BF6002AA707 /* UIColor+ColorTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorTransfer.m"; sourceTree = "<group>"; };
@@ -48,7 +45,6 @@
 		52A756CE1F8F1C00002AA707 /* UIColor+ColorTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorTransfer.h"; sourceTree = "<group>"; };
 		52A756CF1F8F1C00002AA707 /* TextFontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFontFit.h; sourceTree = "<group>"; };
 		52A756D01F8F1C00002AA707 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
-		52A756D11F8F1C00002AA707 /* AlertMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertMessage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +87,6 @@
 		52A756AB1F8F1B0A002AA707 /* PublicTools */ = {
 			isa = PBXGroup;
 			children = (
-				52A756D11F8F1C00002AA707 /* AlertMessage.h */,
 				52A756D01F8F1C00002AA707 /* ChineseToPinyin.h */,
 				52A756CF1F8F1C00002AA707 /* TextFontFit.h */,
 				52A756CD1F8F1C00002AA707 /* TimeWithNSDate.h */,
@@ -105,7 +100,6 @@
 		52A756B61F8F1B0A002AA707 /* PublicToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				52A756C31F8F1BF5002AA707 /* AlertMessage.m */,
 				52A756C71F8F1BF6002AA707 /* ChineseToPinyin.m */,
 				52A756C51F8F1BF5002AA707 /* TextFontFit.m */,
 				52A756C41F8F1BF5002AA707 /* TimeWithNSDate.m */,
@@ -123,7 +117,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A756D61F8F1C00002AA707 /* AlertMessage.h in Headers */,
 				52A756D51F8F1C00002AA707 /* ChineseToPinyin.h in Headers */,
 				52A756D41F8F1C00002AA707 /* TextFontFit.h in Headers */,
 				52A756D21F8F1C00002AA707 /* TimeWithNSDate.h in Headers */,
@@ -237,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A756C81F8F1BF6002AA707 /* AlertMessage.m in Sources */,
 				52A756CB1F8F1BF6002AA707 /* UIColor+ColorTransfer.m in Sources */,
 				52A756B81F8F1B0A002AA707 /* PublicToolsTests.m in Sources */,
 				52A756CC1F8F1BF6002AA707 /* ChineseToPinyin.m in Sources */,

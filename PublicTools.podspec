@@ -18,14 +18,7 @@ Pod::Spec.new do |s|
   s.source_files  = "PublicTools/PublicTools/*.{h,m}","PublicTools/PublicToolsTests/*.{h,m}"
   s.ios.framework  = "UIKit","Foundation"
   s.vendored_frameworks   = "PublicTools/PublicTools.framework"
-  non_arc_files = "PublicTools/PublicTools/AlertMessage.h","PublicTools/PublicToolsTests/AlertMessage.m"
   s.requires_arc = true
-
- s.exclude_files = non_arc_files
- s.subspec "no-arc" do |sna|
- sna.requires_arc = false
- sna.source_files = non_arc_files
- end
 
 end
 
