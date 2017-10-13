@@ -1,15 +1,16 @@
 //
-//  UIColor+ColorTransfer.h
+//  TextFontFit.h
 //  TourWay
 //
 //  Created by WuTongAlvin on 11/4/15.
 //  Copyright © 2015 OneThousandandOneNights. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface UIColor (ColorTransfer)
+@interface TextFontFit : NSObject
 
-+ (UIColor *)colorTransferToRGB:(NSString *)color;
++ (CGFloat)fontWithiPhone6PlusFont:(CGFloat)myFont;
 
 @end
