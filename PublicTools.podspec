@@ -19,5 +19,16 @@ Pod::Spec.new do |s|
   s.ios.framework  = "UIKit","Foundation"
   s.vendored_frameworks   = "PublicTools/PublicTools.framework"
   s.requires_arc = true
+  s.subspec "All" do |spec|
+    spec.ios.dependency "PublicTools/PublicToolsTests/AlertMessage"
 
 end
+
+  s.subspec "AlertMessage" do |spec|
+
+    spec.requires_arc            = false
+    spec.compiler_flags          = '-ObjC'
+    spec.frameworks = "UIKit","Foundation"
+    spec.source_files  = "TWAlertMessage/*.{h,m}"
+
+  end
