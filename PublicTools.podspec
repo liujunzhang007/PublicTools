@@ -15,10 +15,9 @@ Pod::Spec.new do |s|
   s.author       = { "liujunzhang007" => "liujunzhang007@sina.cn" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/liujunzhang007/PublicTools.git", :tag => s.version.to_s }
-  s.source_files  = "PublicTools/PublicTools/PublicTools/*.{h,m}","PublicTools/PublicTools/PublicToolsTests/*.{h,m}"
+  s.source_files  = "PublicTools/PublicTools/*.{h,m}","PublicTools/PublicToolsTests/*.{h,m}"
   s.ios.framework  = "UIKit","Foundation"
-  s.vendored_frameworks   = "PublicTools/PublicTools/PublicTools.framework"
+  s.vendored_frameworks   = "PublicTools/PublicTools.framework"
   s.requires_arc = true
-
 
 end
