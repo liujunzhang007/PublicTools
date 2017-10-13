@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PublicTools"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "There are some public tools,Something is useful in my daily work!"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  Computes the meaning of life.
+                     Features:
+                     1. Is self aware
+                     ...
+                     42. Likes candies.
                    DESC
 
   s.homepage     = "https://github.com/liujunzhang007/PublicTools"
@@ -79,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/liujunzhang007/PublicTools.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/liujunzhang007/PublicTools.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
